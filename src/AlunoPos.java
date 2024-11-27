@@ -3,16 +3,8 @@ public class AlunoPos extends Aluno{
 
 	public AlunoPos(String nome, double cpf, double matricula, double telefone, String email, String endereco,
 			String disciplina) {
-		super(nome, cpf, matricula, telefone, email, endereco, disciplina);
+		super(nome, cpf, matricula, telefone, email, endereco);
 
-	}
-	
-	public void setDisciplina(String disciplina) {
-		this.disciplina = disciplina;
-	}
-	
-public void inscreverDisciplina (String disciplina) {
-	this.disciplina = disciplina;
 	}
 
 public void solicitarBoleto () {

@@ -5,17 +5,16 @@ public class Pessoa {
 	private double telefone;
 	private String email;
 	private String endereco;
-	protected String disciplina;
 
-    
-    public Pessoa (String nome, double cpf, double matricula, double telefone, String email, String endereco, String disciplina) {
-    	this.nome = nome;
-    	this.cpf = cpf;
-    	this.matricula = matricula;
-    	this.telefone = telefone;
-    	this.email = email;
-    	this.endereco = endereco;
-    }
+
+	public Pessoa(String nome, double cpf, double matricula, double telefone, String email, String endereco) {
+		this.nome = nome;
+		this.cpf = cpf;
+		this.matricula = matricula;
+		this.telefone = telefone;
+		this.email = email;
+		this.endereco = endereco;
+	}
 
 	public String getNome() {
 		return nome;
@@ -77,14 +76,4 @@ public class Pessoa {
 	}
 
 
-	public String getDisciplina() {
-		return disciplina;
-	}
-
-
-	public void setDisciplina(String disciplina) {
-		this.disciplina = disciplina;
-	}
-    
 }
-
